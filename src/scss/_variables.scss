@@ -1,0 +1,43 @@
+.bg-light {
+    --cui-light-rgb: 163, 174, 219;
+    --cui-bg-opacity: 0.12 !important;
+}
+.sidebar {
+    --cui-sidebar-brand-height: 3.6rem !important;
+}
+.header {
+    --cui-header-min-height: 3rem !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border-bottom: none !important;
+    .main-header {
+        background: var(--cui-header-bg) !important;
+        border-bottom: var(--cui-header-border) !important;
+    }
+}
+.sub-header {
+    padding: 0.5rem !important;
+    --cui-breadcrumb-font-size: 14px;
+    --cui-breadcrumb-item-padding-x: 0.3rem;
+    a {
+        text-decoration: none;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+        content: var(--cui-breadcrumb-divider, "-") !important;
+    }
+}
+.card {
+    --cui-card-border-radius: 0.45rem !important;
+    box-shadow: 0px 0px 8px 8px #eaedf6AA;
+    border: none !important;
+}
+.add-btn {
+    --cui-btn-font-size: 1.3rem !important;
+    --cui-btn-padding-x: 0.1rem 0.5rem !important;
+    --cui-btn-padding-y: 0 0.5rem !important;
+}
+.sample-img{
+    height: 300px; 
+    width: auto; 
+    max-width: 100%;
+}
