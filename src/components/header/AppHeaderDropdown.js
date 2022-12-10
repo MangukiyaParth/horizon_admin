@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {
   CAvatar,
   CDropdown,
@@ -29,10 +30,12 @@ const AppHeaderDropdown = () => {
           Settings
         </CDropdownItem>
         <CDropdownDivider />
-        <CDropdownItem href="#">
-          <CIcon icon={cilLockLocked} className="me-2" />
-          Lock Account
-        </CDropdownItem>
+        <Link to="/login">
+          <CDropdownItem href="/login">
+            <CIcon icon={cilLockLocked} className="me-2" />
+            LogOut
+          </CDropdownItem>
+        </Link>
       </CDropdownMenu>
     </CDropdown>
   )

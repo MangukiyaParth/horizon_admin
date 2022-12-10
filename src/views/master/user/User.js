@@ -118,9 +118,15 @@ const Comapany = () => {
               }}
             >
               {addScreenVisible ? (
-                <CIcon icon={cilArrowThickFromRight} />
+                <>
+                  <CIcon icon={cilArrowThickFromRight} />
+                  Back
+                </>
               ) : (
-                <CIcon icon={cilPlus} />
+                <>
+                  <CIcon icon={cilPlus} />
+                  Add
+                </>
               )}
             </CButton>
           </div>

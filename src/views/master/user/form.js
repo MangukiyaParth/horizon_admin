@@ -92,6 +92,7 @@ const ComapanyForm = () => {
                 type="file"
                 id="profile"
                 placeholder="profile"
+                size="lg"
                 onChange={handleProfileChange}
               />
               {profileUrl !== '' ? <img src={profileUrl} alt="" className="mt-4 sample-img" /> : <></>}
@@ -104,6 +105,7 @@ const ComapanyForm = () => {
                 type="file"
                 id="coverimage"
                 placeholder="coverimage"
+                size="lg"
                 onChange={handleCoverChange}
               />
               {coverUrl !== '' ? <img src={coverUrl} alt="" className="mt-4 sample-img" /> : <></>}
