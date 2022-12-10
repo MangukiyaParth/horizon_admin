@@ -106,7 +106,7 @@ const Comapany = () => {
     <>
       <CCard className="mb-4">
         <CCardHeader>
-          <strong>Company</strong>
+          <strong>User</strong>
           <div className="float-end">
             <CButton
               color="primary"
