@@ -120,12 +120,10 @@ const Comapany = () => {
               {addScreenVisible ? (
                 <>
                   <CIcon icon={cilArrowThickFromRight} />
-                  Back
                 </>
               ) : (
                 <>
                   <CIcon icon={cilPlus} />
-                  Add
                 </>
               )}
             </CButton>
